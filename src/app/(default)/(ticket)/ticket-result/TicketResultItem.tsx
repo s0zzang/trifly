@@ -8,7 +8,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import "./TicketResultItem.scss";
-import Loading from "@/app/loading";
+
 
 const TicketResultItem = ({
   user,
@@ -244,7 +244,6 @@ const TicketResultItem = ({
         content: (
           <>
             선택하신 항공편을 조회 중입니다.
-            <Loading type="small" />
           </>
         ),
         buttonNum: 0,
